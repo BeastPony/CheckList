@@ -41,7 +41,7 @@ function createTask(){
 
     p.addEventListener('dblclick', function(){
         let inp = document.createElement('input');
-        inp.textContent = p.textContent;
+        inp.value = p.textContent;
         li.appendChild(inp);
 
         inp.addEventListener('keypress', function(event){ 
